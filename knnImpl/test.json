@@ -1,0 +1,81 @@
+{
+  "initials": "TEST20",
+  "History_Experiment_Simulated": [
+    [
+      {"id": 0, "time": 0.125, "risk": 0.10, "arrival": 0.15, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"},
+      {"id": 1, "time": 0.225, "risk": 0.20, "arrival": 0.25, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"}
+    ],
+    [
+      {"id": 0, "time": 0.325, "risk": 0.30, "arrival": 0.35, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"},
+      {"id": 1, "time": 0.425, "risk": 0.40, "arrival": 0.45, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"}
+    ],
+    [
+      {"id": 0, "time": 0.525, "risk": 0.50, "arrival": 0.55, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"},
+      {"id": 1, "time": 0.625, "risk": 0.60, "arrival": 0.65, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"}
+    ],
+    [
+      {"id": 0, "time": 0.175, "risk": 0.15, "arrival": 0.20, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"},
+      {"id": 1, "time": 0.275, "risk": 0.25, "arrival": 0.30, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"}
+    ],
+    [
+      {"id": 0, "time": 0.375, "risk": 0.35, "arrival": 0.40, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"},
+      {"id": 1, "time": 0.475, "risk": 0.45, "arrival": 0.50, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"}
+    ],
+    [
+      {"id": 0, "time": 0.575, "risk": 0.55, "arrival": 0.60, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"},
+      {"id": 1, "time": 0.675, "risk": 0.65, "arrival": 0.70, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"}
+    ],
+    [
+      {"id": 0, "time": 0.225, "risk": 0.20, "arrival": 0.25, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"},
+      {"id": 1, "time": 0.325, "risk": 0.30, "arrival": 0.35, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"}
+    ],
+    [
+      {"id": 0, "time": 0.425, "risk": 0.40, "arrival": 0.45, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"},
+      {"id": 1, "time": 0.525, "risk": 0.50, "arrival": 0.55, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"}
+    ],
+    [
+      {"id": 0, "time": 0.275, "risk": 0.25, "arrival": 0.30, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"},
+      {"id": 1, "time": 0.375, "risk": 0.35, "arrival": 0.40, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"}
+    ],
+    [
+      {"id": 0, "time": 0.475, "risk": 0.45, "arrival": 0.50, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"},
+      {"id": 1, "time": 0.575, "risk": 0.55, "arrival": 0.60, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"}
+    ],
+    [
+      {"id": 0, "time": 0.625, "risk": 0.60, "arrival": 0.65, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"},
+      {"id": 1, "time": 0.725, "risk": 0.70, "arrival": 0.75, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"}
+    ],
+    [
+      {"id": 0, "time": 0.325, "risk": 0.30, "arrival": 0.35, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"},
+      {"id": 1, "time": 0.425, "risk": 0.40, "arrival": 0.45, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"}
+    ],
+    [
+      {"id": 0, "time": 0.525, "risk": 0.50, "arrival": 0.55, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"},
+      {"id": 1, "time": 0.625, "risk": 0.60, "arrival": 0.65, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"}
+    ],
+    [
+      {"id": 0, "time": 0.375, "risk": 0.35, "arrival": 0.40, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"},
+      {"id": 1, "time": 0.475, "risk": 0.45, "arrival": 0.50, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"}
+    ],
+    [
+      {"id": 0, "time": 0.575, "risk": 0.55, "arrival": 0.60, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"},
+      {"id": 1, "time": 0.675, "risk": 0.65, "arrival": 0.70, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"}
+    ],
+    [
+      {"id": 0, "time": 0.525, "risk": 0.40, "arrival": 0.45, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"},
+      {"id": 1, "time": 0.575, "risk": 0.50, "arrival": 0.55, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"}
+    ],
+    [
+      {"id": 0, "time": 0.625, "risk": 0.60, "arrival": 0.65, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"},
+      {"id": 1, "time": 0.725, "risk": 0.70, "arrival": 0.75, "sliderDissatisfiedSatisfied": "75", "sliderBoredExcited": "75"}
+    ],
+    [
+      {"id": 0, "time": 0.475, "risk": 0.45, "arrival": 0.50, "sliderDissatisfiedSatisfied": "100", "sliderBoredExcited": "100"},
+      {"id": 1, "time": 0.575, "risk": 0.55, "arrival": 0.60, "sliderDissatisfiedSatisfied": "0", "sliderBoredExcited": "0"}
+    ],
+    [
+      {"id": 0, "time": 0.675, "risk": 0.65, "arrival": 0.70, "sliderDissatisfiedSatisfied": "25", "sliderBoredExcited": "25"},
+      {"id": 1, "time": 0.775, "risk": 0.75, "arrival": 0.80, "sliderDissatisfiedSatisfied": "50", "sliderBoredExcited": "50"}
+    ]
+  ]
+}
