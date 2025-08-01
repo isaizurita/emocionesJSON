@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
+#from sklearn.metrics import mean_squared_error, r2_score
 
 # Ruta de los JSON
 carpeta_json = "/Users/isaizurita/ProyectoTerminal/JSONS"
@@ -54,10 +54,10 @@ else:
     y = df[["valence", "arousal"]]
 
     # División en entrenamiento y prueba
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, shuffle=False)
 
     # Modelo KNN para regresión multisalida
-    knn_regressor = MultiOutputRegressor(KNeighborsRegressor(n_neighbors=5))
+    knn_regressor = MultiOutputRegressor(KNeighborsRegressor(n_neighbors=2))
     knn_regressor.fit(X_train, y_train)
 
     # Predicción
@@ -77,13 +77,12 @@ else:
     y_pred_redondeado = pd.DataFrame(y_pred_redondeado, columns=["valence", "arousal"])
 
     # Métricas (usando los valores originales sin redondear para evaluación objetiva)
-    print("\n=== MÉTRICAS DE REGRESIÓN ===")
-    print("Error cuadrático medio (MSE):", mean_squared_error(y_test, y_pred))
-    print("Coeficiente de determinación (R^2):", r2_score(y_test, y_pred))
+    #print("\n=== MÉTRICAS DE REGRESIÓN ===")
+    #print("Error cuadrático medio (MSE):", mean_squared_error(y_test, y_pred))
+    #print("Coeficiente de determinación (R^2):", r2_score(y_test, y_pred))
 
     # DataFrame de salida con predicciones redondeadas
-    resultados = pd.DataFrame
-    ({
+    resultados = pd.DataFrame({
         "time": X_test["time"].values,
         "risk": X_test["risk"].values,
         "arrival": X_test["arrival"].values,
@@ -91,19 +90,19 @@ else:
         "arousal_predicho": y_pred_redondeado["arousal"].values
     })
 
-    print("\nResultados:")
+    print("\nResultados de la prueba:")
     print(resultados.head())
 
 # === PRUEBA MANUAL DE UNA INSTANCIA ===
 
 # Valores de entrada personalizados
-time_input = 0.4
-risk_input = 0.7
-arrival_input = 0.2
+time_input = 0.4984615284837905
+risk_input = 0.6634833487600097
+arrival_input = 0.19823301279341907
 
 # Crear DataFrame con los valores de entrada
 instancia_nueva = pd.DataFrame([[time_input, risk_input, arrival_input]],
-columns=["time", "risk", "arrival"])
+                               columns=["time", "risk", "arrival"])
 
 # Obtener predicción
 prediccion = knn_regressor.predict(instancia_nueva)[0]
@@ -113,4 +112,4 @@ valence_pred = redondear_personalizado(prediccion[0])
 arousal_pred = redondear_personalizado(prediccion[1])
 
 print(f"\nEntrada: time={time_input}, risk={risk_input}, arrival={arrival_input}")
-print(f"Predicción redondeada -> valence: {valence_pred}, arousal: {arousal_pred}\n")
+print(f"Predicción -> valence: {valence_pred}, arousal: {arousal_pred}\n")
