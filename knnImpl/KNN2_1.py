@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.model_selection import train_test_split
-#from sklearn.metrics import mean_squared_error, r2_score
 
 # Ruta de los JSON
 carpeta_json = "/Users/isaizurita/ProyectoTerminal/JSONS"
@@ -47,7 +46,7 @@ if df.empty:
 else:
     print(f"\nSe extrajeron {len(df)} muestras de entrenamiento")
 
-    # Eliminar combinaciones duplicadas de time, risk y arrival
+    # Eliminar combinaciones duplicadas
     df = df.drop_duplicates(subset=["time", "risk", "arrival"], keep="first")
 
     X = df[["time", "risk", "arrival"]]
@@ -56,62 +55,31 @@ else:
     # División en entrenamiento y prueba
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, shuffle=False)
 
-    # Modelo KNN para regresión multisalida
-    knn_regressor = MultiOutputRegressor(KNeighborsRegressor(n_neighbors=2))
+    # Modelo KNN
+    knn_regressor = MultiOutputRegressor(KNeighborsRegressor(n_neighbors=1))
     knn_regressor.fit(X_train, y_train)
 
-    # Predicción
+    # Predicción sin redondeo
     y_pred = knn_regressor.predict(X_test)
 
-    # Redondear al valor más cercano entre 0, 25, 50, 75, 100
-    def redondear_personalizado(valor):
-        opciones = [0, 25, 50, 75, 100]
-        return min(opciones, key=lambda x: abs(x - valor))
-
-    # Aplicar redondeo a cada predicción
-    y_pred_redondeado = []
-    for pred in y_pred:
-        valence_red = redondear_personalizado(pred[0])
-        arousal_red = redondear_personalizado(pred[1])
-        y_pred_redondeado.append([valence_red, arousal_red])
-    y_pred_redondeado = pd.DataFrame(y_pred_redondeado, columns=["valence", "arousal"])
-
-    # Métricas (usando los valores originales sin redondear para evaluación objetiva)
-    #print("\n=== MÉTRICAS DE REGRESIÓN ===")
-    #print("Error cuadrático medio (MSE):", mean_squared_error(y_test, y_pred))
-    #print("Coeficiente de determinación (R^2):", r2_score(y_test, y_pred))
-
-    # DataFrame de salida con predicciones redondeadas
+    # DataFrame de salida con valores predichos exactos
     resultados = pd.DataFrame({
         "time": X_test["time"].values,
         "risk": X_test["risk"].values,
         "arrival": X_test["arrival"].values,
-        "valence_predicho": y_pred_redondeado["valence"].values,
-        "arousal_predicho": y_pred_redondeado["arousal"].values
+        "valence_predicho": y_pred[:, 0],
+        "arousal_predicho": y_pred[:, 1]
     })
 
-    print("\nResultados de la prueba:")
-    print(resultados.head())
+    # === PRUEBA MANUAL DE UNA INSTANCIA ===
+    time_input = 0.4984615284837905
+    risk_input = 0.6634833487600097
+    arrival_input = 0.19823301279341907
 
-# === PRUEBA MANUAL DE UNA INSTANCIA ===
+    instancia_nueva = pd.DataFrame([[time_input, risk_input, arrival_input]],
+                                   columns=["time", "risk", "arrival"])
 
-# Valores de entrada personalizados
-time_input = 0.4984615284837905
-risk_input = 0.6634833487600097
-arrival_input = 0.19823301279341907
+    prediccion = knn_regressor.predict(instancia_nueva)[0]
 
-# Crear DataFrame con los valores de entrada
-instancia_nueva = pd.DataFrame([[time_input, risk_input, arrival_input]],
-                               columns=["time", "risk", "arrival"])
-
-# Obtener predicción
-prediccion = knn_regressor.predict(instancia_nueva)[0]
-
-# Aplicar redondeo personalizado
-valence_pred = redondear_personalizado(prediccion[0])
-arousal_pred = redondear_personalizado(prediccion[1])
-
-print(f"\nEntrada: time={time_input}, risk={risk_input}, arrival={arrival_input}")
-print(f"Predicción -> valence: {valence_pred}, arousal: {arousal_pred}\n")
-
-#*Quitar el redondeo
+    print(f"\nEntrada: time={time_input}, risk={risk_input}, arrival={arrival_input}")
+    print(f"Predicción -> valence: {prediccion[0]}, arousal: {prediccion[1]}\n")
