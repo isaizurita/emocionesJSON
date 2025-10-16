@@ -21,13 +21,13 @@ emocionesJSON/
 │
 ├── knnImpl/
 │   ├── KNN2.py          # Implementación principal del modelo k-NN
-│   ├── KNN2_1.py        # Variante del modelo con pruebas y ajustes adicionales
+│   ├── KNN2_1.py        # Variante del modelo sin redondeo
 │
-├── datasets/            # Archivos JSON con registros de emociones de usuarios
+├── aux/            # Archivos de ayuda
 │
-├── visualizations/      # Scripts y gráficos de análisis exploratorio
+├── graficas/      # Scripts y gráficos de análisis exploratorio
 │
-├── descripcionpt2.pdf   # Documento técnico del proyecto terminal
+├── Proyecto Terminal I.pdf   # Documento técnico del proyecto terminal
 │
 └── README.md            # (Este archivo)
 ```
