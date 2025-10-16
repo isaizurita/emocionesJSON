@@ -34,16 +34,6 @@ emocionesJSON/
 
 ---
 
-## ⚙️ Instalación y Uso
-
-### 🔸 Requisitos previos
-Asegúrate de tener instalado:
-- Python 3.8 o superior  
-- Bibliotecas necesarias:
-  ```bash
-  pip install numpy pandas scikit-learn matplotlib
-  ```
-
 ### Archivos de entrada
 Los programas leen datos emocionales desde archivos JSON con la siguiente estructura:
 
@@ -62,7 +52,7 @@ Estos valores representan las emociones y condiciones registradas en cada ronda 
 
 ---
 
-## 🧮 Metodología
+## Metodología
 
 El flujo general del sistema consiste en:
 
