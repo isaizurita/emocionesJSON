@@ -1,0 +1,309 @@
+usuario,ronda,iteracion,sliderDissatisfiedSatisfied,sliderBoredExcited,time,risk,arrival,age,gender,education,nivelFamiliaridad,nivelConocimiento,global_id
+GEGJ,0,0,0,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,37,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,0
+GEGJ,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,37,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,0
+GEGJ,0,2,0,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,37,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,0
+GEGJ,0,3,25,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,37,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,0
+lfp,0,0,0,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,44,Male,Doctorate,Seen virtual service robots,Never programmed robots,1
+lfp,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,44,Male,Doctorate,Seen virtual service robots,Never programmed robots,1
+lfp,0,2,0,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,44,Male,Doctorate,Seen virtual service robots,Never programmed robots,1
+lfp,0,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,44,Male,Doctorate,Seen virtual service robots,Never programmed robots,1
+ARH,0,0,25,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,0,2,25,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,0,3,25,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,1,0,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,1,1,25,50,0.4597135588354613,0.8667269593721654,0.2885390361195653,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,1,2,25,25,0.458904671142526,0.8955263303423449,0.3041781438270339,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,1,3,0,0,0.45818913617361284,0.8999651727342828,0.2728599727503848,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,2,0,25,25,0.9219601121361245,0.7537132885032378,0.1712264503559322,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,2,1,75,50,0.563977369645388,0.7477512837514338,0.19206996963422457,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,2,2,0,0,0.6175550841412343,0.8764958567394897,0.00019563587043873595,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+ARH,2,3,100,100,0.536927344854439,0.7857077406717486,0.04768013220747465,36,Female,Doctorate,Seen physical service robots,Programmed physical robots,2
+GBS,0,0,50,100,0.5255373137825703,0.6452670144837881,0.2768108646941967,49,Male,Doctorate,Seen physical service robots,Never programmed robots,3
+GBS,0,1,25,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,49,Male,Doctorate,Seen physical service robots,Never programmed robots,3
+GBS,0,2,25,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,49,Male,Doctorate,Seen physical service robots,Never programmed robots,3
+GBS,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,49,Male,Doctorate,Seen physical service robots,Never programmed robots,3
+ALC,0,0,75,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,0,3,75,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,1,0,100,75,0.4595593475463711,0.868748699972358,0.2627338334810066,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,1,1,75,75,0.4597135588354613,0.8667269593721654,0.2885390361195653,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,1,2,25,50,0.458904671142526,0.8955263303423449,0.3041781438270339,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+ALC,1,3,50,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,38,Male,Doctorate,Seen physical service robots,Programmed physical robots,4
+LAAR,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,50,Male,Doctorate,Seen physical service robots,Programmed physical robots,5
+LAAR,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,50,Male,Doctorate,Seen physical service robots,Programmed physical robots,5
+LAAR,0,2,0,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,50,Male,Doctorate,Seen physical service robots,Programmed physical robots,5
+LAAR,0,3,0,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,50,Male,Doctorate,Seen physical service robots,Programmed physical robots,5
+ROCA,0,0,0,0,0.5255373137825703,0.6452670144837881,0.2768108646941967,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,0,2,0,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,1,0,100,75,0.4595593475463711,0.868748699972358,0.2627338334810066,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,1,1,100,100,0.4597135588354613,0.8667269593721654,0.2885390361195653,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,1,2,0,0,0.458904671142526,0.8955263303423449,0.3041781438270339,53,Male,Master,Used service robots,Never programmed robots,6
+ROCA,1,3,0,0,0.45818913617361284,0.8999651727342828,0.2728599727503848,53,Male,Master,Used service robots,Never programmed robots,6
+ALBG,0,0,75,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,47,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,7
+ALBG,0,1,0,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,47,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,7
+ALBG,0,2,25,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,47,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,7
+ALBG,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,47,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,7
+NHS,0,0,25,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,38,Male,Master,Used service robots,Programmed both physical and virtual robots,8
+NHS,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,38,Male,Master,Used service robots,Programmed both physical and virtual robots,8
+NHS,0,2,100,100,0.4846596000512216,0.9272238212895264,0.1449310118720613,38,Male,Master,Used service robots,Programmed both physical and virtual robots,8
+NHS,0,3,25,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,38,Male,Master,Used service robots,Programmed both physical and virtual robots,8
+EBJ,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,63,Female,Doctorate,Seen physical service robots,Never programmed robots,9
+EBJ,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,63,Female,Doctorate,Seen physical service robots,Never programmed robots,9
+EBJ,0,2,0,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,63,Female,Doctorate,Seen physical service robots,Never programmed robots,9
+EBJ,0,3,0,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,63,Female,Doctorate,Seen physical service robots,Never programmed robots,9
+JNRD,0,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,52,Male,Doctorate,Seen physical service robots,Never programmed robots,10
+JNRD,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,52,Male,Doctorate,Seen physical service robots,Never programmed robots,10
+JNRD,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,52,Male,Doctorate,Seen physical service robots,Never programmed robots,10
+JNRD,0,3,50,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,52,Male,Doctorate,Seen physical service robots,Never programmed robots,10
+JAIA,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,0,2,50,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,0,3,50,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,1,0,75,75,0.4595593475463711,0.868748699972358,0.2627338334810066,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,1,1,75,75,0.4597135588354613,0.8667269593721654,0.2885390361195653,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,1,2,50,50,0.458904671142526,0.8955263303423449,0.3041781438270339,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+JAIA,1,3,25,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,24,Male,Degree,Never seen a virtual or physical service robot,Never programmed robots,11
+AGF,0,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,51,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,12
+AGF,0,1,25,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,51,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,12
+AGF,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,51,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,12
+AGF,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,51,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,12
+EGA,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,0,2,0,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,0,3,25,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,1,0,100,50,0.459167682928114,0.8651705018746499,0.1011079520794157,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,1,1,0,50,0.45307523226941504,0.9444322826768645,0.27506205796285244,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,1,2,100,50,0.4399801697010422,0.9810597352117704,0.1981399600820706,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+EGA,1,3,75,50,0.4548557836209679,0.9298478876940789,0.04792883266966079,55,Male,Doctorate,Seen physical service robots,Never programmed robots,13
+DAGM,0,0,0,0,0.5255373137825703,0.6452670144837881,0.2768108646941967,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,0,2,50,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,0,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,1,0,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,1,1,100,100,0.4597135588354613,0.8667269593721654,0.2885390361195653,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,1,2,100,75,0.458904671142526,0.8955263303423449,0.3041781438270339,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+DAGM,1,3,0,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,47,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,14
+JAPG,0,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,23,Male,Degree,Seen virtual service robots,Never programmed robots,15
+JAPG,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,23,Male,Degree,Seen virtual service robots,Never programmed robots,15
+JAPG,0,2,100,100,0.4846596000512216,0.9272238212895264,0.1449310118720613,23,Male,Degree,Seen virtual service robots,Never programmed robots,15
+JAPG,0,3,50,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,23,Male,Degree,Seen virtual service robots,Never programmed robots,15
+IARM,0,0,75,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,39,Male,Doctorate,Seen physical service robots,Never programmed robots,16
+IARM,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,39,Male,Doctorate,Seen physical service robots,Never programmed robots,16
+IARM,0,2,50,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,39,Male,Doctorate,Seen physical service robots,Never programmed robots,16
+IARM,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,39,Male,Doctorate,Seen physical service robots,Never programmed robots,16
+AEHM,0,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,0,1,0,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,0,2,0,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,0,3,25,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,1,0,25,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,1,1,100,100,0.5255373137825703,0.6452670144837881,0.2768108646941967,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,1,2,0,75,0.45749702791405916,0.7946569601331365,0.08534473351778746,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,1,3,25,75,0.49299214077334197,0.7068230395052644,0.07178876097302342,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,2,0,100,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,2,1,0,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,2,2,0,25,0.45749702791405916,0.7946569601331365,0.08534473351778746,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+AEHM,2,3,100,100,0.49299214077334197,0.7068230395052644,0.07178876097302342,44,Female,Master,Seen both physical and virtual service robots,Never programmed robots,17
+SLB,0,0,75,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,56,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,18
+SLB,0,1,25,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,56,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,18
+SLB,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,56,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,18
+SLB,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,56,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,18
+CHGR,0,0,0,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,48,Female,Doctorate,Seen virtual service robots,Never programmed robots,19
+CHGR,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,48,Female,Doctorate,Seen virtual service robots,Never programmed robots,19
+CHGR,0,2,100,100,0.4846596000512216,0.9272238212895264,0.1449310118720613,48,Female,Doctorate,Seen virtual service robots,Never programmed robots,19
+CHGR,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,48,Female,Doctorate,Seen virtual service robots,Never programmed robots,19
+RLS,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,45,Female,Doctorate,Seen physical service robots,Never programmed robots,20
+RLS,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,45,Female,Doctorate,Seen physical service robots,Never programmed robots,20
+RLS,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,45,Female,Doctorate,Seen physical service robots,Never programmed robots,20
+RLS,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,45,Female,Doctorate,Seen physical service robots,Never programmed robots,20
+EIOR,0,0,25,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,0,1,0,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,0,2,0,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,1,0,100,75,0.4595593475463711,0.868748699972358,0.2627338334810066,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,1,1,25,0,0.4597135588354613,0.8667269593721654,0.2885390361195653,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,1,2,100,75,0.458904671142526,0.8955263303423449,0.3041781438270339,33,Male,Degree,Used service robots,Programmed physical robots,21
+EIOR,1,3,0,0,0.45818913617361284,0.8999651727342828,0.2728599727503848,33,Male,Degree,Used service robots,Programmed physical robots,21
+ERR,0,0,50,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,31,Male,Doctorate,Seen both physical and virtual service robots,Programmed both physical and virtual robots,22
+ERR,0,1,50,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,31,Male,Doctorate,Seen both physical and virtual service robots,Programmed both physical and virtual robots,22
+ERR,0,2,75,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,31,Male,Doctorate,Seen both physical and virtual service robots,Programmed both physical and virtual robots,22
+ERR,0,3,75,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,31,Male,Doctorate,Seen both physical and virtual service robots,Programmed both physical and virtual robots,22
+MO,0,0,25,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,0,2,0,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,0,3,25,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,1,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,1,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,1,2,25,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,1,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,2,0,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,2,1,100,100,0.4597135588354613,0.8667269593721654,0.2885390361195653,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,2,2,100,100,0.458904671142526,0.8955263303423449,0.3041781438270339,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+MO,2,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,54,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,23
+SHL,0,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,55,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,24
+SHL,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,55,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,24
+SHL,0,2,0,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,55,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,24
+SHL,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,55,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,24
+AM,0,0,100,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,54,Female,Doctorate,Seen physical service robots,Never programmed robots,25
+AM,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,54,Female,Doctorate,Seen physical service robots,Never programmed robots,25
+AM,0,2,50,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,54,Female,Doctorate,Seen physical service robots,Never programmed robots,25
+AM,0,3,75,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,54,Female,Doctorate,Seen physical service robots,Never programmed robots,25
+CARE,0,0,25,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,0,3,100,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,1,0,75,50,0.459167682928114,0.8651705018746499,0.1011079520794157,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,1,1,0,25,0.45307523226941504,0.9444322826768645,0.27506205796285244,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,1,2,100,50,0.4399801697010422,0.9810597352117704,0.1981399600820706,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,1,3,100,50,0.4548557836209679,0.9298478876940789,0.04792883266966079,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,2,0,75,75,0.43489629163087073,0.8175859038955056,0.0975142348637857,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,2,1,0,75,0.45749702791405916,0.7946569601331365,0.08534473351778746,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,2,2,0,100,0.43709547413557837,0.7996789342873667,0.029095970087296107,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+CARE,2,3,100,50,0.4483187358474537,0.8566280602931865,0.01865252249225225,43,Male,Doctorate,Used service robots,Programmed both physical and virtual robots,26
+JCT,0,0,50,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,0,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,1,0,75,75,0.4595593475463711,0.868748699972358,0.2627338334810066,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,1,1,50,75,0.4597135588354613,0.8667269593721654,0.2885390361195653,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,1,2,100,100,0.458904671142526,0.8955263303423449,0.3041781438270339,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+JCT,1,3,0,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,55,Male,Doctorate,Seen physical service robots,Never programmed robots,27
+mp,0,0,50,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,51,Female,Doctorate,,,28
+mp,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,51,Female,Doctorate,,,28
+mp,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,51,Female,Doctorate,,,28
+mp,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,51,Female,Doctorate,,,28
+REGC,0,0,0,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,0,1,0,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,0,2,100,100,0.4846596000512216,0.9272238212895264,0.1449310118720613,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,1,0,75,50,0.459167682928114,0.8651705018746499,0.1011079520794157,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,1,1,0,50,0.45307523226941504,0.9444322826768645,0.27506205796285244,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,1,2,75,50,0.4399801697010422,0.9810597352117704,0.1981399600820706,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,1,3,100,75,0.4548557836209679,0.9298478876940789,0.04792883266966079,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,2,0,75,50,0.43489629163087073,0.8175859038955056,0.0975142348637857,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,2,1,100,75,0.45749702791405916,0.7946569601331365,0.08534473351778746,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,2,2,100,50,0.43709547413557837,0.7996789342873667,0.029095970087296107,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,2,3,0,100,0.4483187358474537,0.8566280602931865,0.01865252249225225,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,3,0,100,75,0.459167682928114,0.8651705018746499,0.1011079520794157,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,3,1,100,100,0.45307523226941504,0.9444322826768645,0.27506205796285244,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,3,2,100,100,0.4399801697010422,0.9810597352117704,0.1981399600820706,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+REGC,3,3,100,75,0.4548557836209679,0.9298478876940789,0.04792883266966079,27,Male,Doctorate,Seen virtual service robots,Programmed physical robots,29
+SNY,0,0,25,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,0,2,50,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,1,0,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,1,1,100,100,0.4597135588354613,0.8667269593721654,0.2885390361195653,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,1,2,100,100,0.458904671142526,0.8955263303423449,0.3041781438270339,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,1,3,50,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,2,0,100,50,0.45330225848956623,0.7903770919436844,0.31126213496513755,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,2,1,100,75,0.4961778562977241,0.742900994945293,0.3706641579964038,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,2,2,100,50,0.45099730599778076,0.8019484785649978,0.27630202236385093,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+SNY,2,3,100,25,0.4539909418206916,0.751956041590529,0.28383978290865336,60,Male,Doctorate,Seen physical service robots,Programmed both physical and virtual robots,30
+ARNR,0,0,25,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,35,Female,Master,Used service robots,Programmed virtual robots,31
+ARNR,0,1,25,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,35,Female,Master,Used service robots,Programmed virtual robots,31
+ARNR,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,35,Female,Master,Used service robots,Programmed virtual robots,31
+ARNR,0,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,35,Female,Master,Used service robots,Programmed virtual robots,31
+MHG,0,0,0,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,1,0,100,75,0.4595593475463711,0.868748699972358,0.2627338334810066,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,1,1,100,50,0.4597135588354613,0.8667269593721654,0.2885390361195653,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,1,2,25,75,0.458904671142526,0.8955263303423449,0.3041781438270339,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,1,3,0,0,0.45818913617361284,0.8999651727342828,0.2728599727503848,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,2,0,0,0,0.9219601121361245,0.7537132885032378,0.1712264503559322,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,2,1,0,0,0.563977369645388,0.7477512837514338,0.19206996963422457,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,2,2,0,0,0.6175550841412343,0.8764958567394897,0.00019563587043873595,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,2,3,0,0,0.536927344854439,0.7857077406717486,0.04768013220747465,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,3,0,0,75,0.4548557836209679,0.9298478876940789,0.04792883266966079,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,3,1,50,50,0.4880997506452671,0.8912882879759056,0.03321731463669652,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,3,2,0,0,0.5221268430225984,0.9330349050604748,0.028383957598960913,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+MHG,3,3,50,50,0.4642062525400211,0.8346540439968613,0.07592109657518349,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,32
+AGN,0,0,25,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,50,Male,Doctorate,Seen physical service robots,Never programmed robots,33
+AGN,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,50,Male,Doctorate,Seen physical service robots,Never programmed robots,33
+AGN,0,2,25,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,50,Male,Doctorate,Seen physical service robots,Never programmed robots,33
+AGN,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,50,Male,Doctorate,Seen physical service robots,Never programmed robots,33
+HDLM,0,0,75,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,34
+HDLM,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,34
+HDLM,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,34
+HDLM,0,3,0,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,45,Female,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,34
+SHJ,0,0,100,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,0,2,25,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,1,0,100,75,0.4595593475463711,0.868748699972358,0.2627338334810066,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,1,1,100,75,0.4597135588354613,0.8667269593721654,0.2885390361195653,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,1,2,25,50,0.458904671142526,0.8955263303423449,0.3041781438270339,62,Male,Master,Seen physical service robots,Never programmed robots,35
+SHJ,1,3,25,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,62,Male,Master,Seen physical service robots,Never programmed robots,35
+gfp,0,0,25,0,0.5255373137825703,0.6452670144837881,0.2768108646941967,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,0,2,25,0,0.4846596000512216,0.9272238212895264,0.1449310118720613,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,1,0,75,100,0.4595593475463711,0.868748699972358,0.2627338334810066,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,1,1,0,50,0.4597135588354613,0.8667269593721654,0.2885390361195653,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,1,2,75,100,0.458904671142526,0.8955263303423449,0.3041781438270339,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+gfp,1,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,41,Male,Doctorate,Used service robots,Programmed physical robots,36
+MATG,0,0,50,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,0,3,0,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,1,0,100,75,0.459167682928114,0.8651705018746499,0.1011079520794157,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,1,1,0,0,0.45307523226941504,0.9444322826768645,0.27506205796285244,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,1,2,100,100,0.4399801697010422,0.9810597352117704,0.1981399600820706,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,1,3,25,75,0.4548557836209679,0.9298478876940789,0.04792883266966079,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,2,0,0,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,2,1,0,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,2,2,0,0,0.45749702791405916,0.7946569601331365,0.08534473351778746,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+MATG,2,3,100,100,0.49299214077334197,0.7068230395052644,0.07178876097302342,31,Female,Master,Seen both physical and virtual service robots,Never programmed robots,37
+CIHC,0,0,25,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,36,Male,Doctorate,Seen virtual service robots,Never programmed robots,38
+CIHC,0,1,0,0,0.4984615284837905,0.6634833487600097,0.19823301279341907,36,Male,Doctorate,Seen virtual service robots,Never programmed robots,38
+CIHC,0,2,25,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,36,Male,Doctorate,Seen virtual service robots,Never programmed robots,38
+CIHC,0,3,25,25,0.45818913617361284,0.8999651727342828,0.2728599727503848,36,Male,Doctorate,Seen virtual service robots,Never programmed robots,38
+LMC,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,51,Female,Master,Seen virtual service robots,Never programmed robots,39
+LMC,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,51,Female,Master,Seen virtual service robots,Never programmed robots,39
+LMC,0,2,75,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,51,Female,Master,Seen virtual service robots,Never programmed robots,39
+LMC,0,3,75,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,51,Female,Master,Seen virtual service robots,Never programmed robots,39
+JAS,0,0,75,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,55,Male,Doctorate,Seen virtual service robots,Never programmed robots,40
+JAS,0,1,25,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,55,Male,Doctorate,Seen virtual service robots,Never programmed robots,40
+JAS,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,55,Male,Doctorate,Seen virtual service robots,Never programmed robots,40
+JAS,0,3,75,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,55,Male,Doctorate,Seen virtual service robots,Never programmed robots,40
+DAG,0,0,25,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,41,Other,Doctorate,Seen virtual service robots,Never programmed robots,41
+DAG,0,1,25,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,41,Other,Doctorate,Seen virtual service robots,Never programmed robots,41
+DAG,0,2,75,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,41,Other,Doctorate,Seen virtual service robots,Never programmed robots,41
+DAG,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,41,Other,Doctorate,Seen virtual service robots,Never programmed robots,41
+OMG,0,0,25,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,56,Male,Master,Seen physical service robots,Never programmed robots,42
+OMG,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,56,Male,Master,Seen physical service robots,Never programmed robots,42
+OMG,0,2,25,25,0.4846596000512216,0.9272238212895264,0.1449310118720613,56,Male,Master,Seen physical service robots,Never programmed robots,42
+OMG,0,3,100,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,56,Male,Master,Seen physical service robots,Never programmed robots,42
+DRD,0,0,25,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,0,1,25,75,0.4984615284837905,0.6634833487600097,0.19823301279341907,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,0,2,100,100,0.4846596000512216,0.9272238212895264,0.1449310118720613,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,0,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,1,0,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,1,1,100,100,0.4597135588354613,0.8667269593721654,0.2885390361195653,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,1,2,0,100,0.458904671142526,0.8955263303423449,0.3041781438270339,52,Female,Doctorate,Used service robots,Never programmed robots,43
+DRD,1,3,25,75,0.45818913617361284,0.8999651727342828,0.2728599727503848,52,Female,Doctorate,Used service robots,Never programmed robots,43
+JAFF,0,0,0,25,0.5255373137825703,0.6452670144837881,0.2768108646941967,36,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,44
+JAFF,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,36,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,44
+JAFF,0,2,0,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,36,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,44
+JAFF,0,3,75,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,36,Male,Doctorate,Never seen a virtual or physical service robot,Never programmed robots,44
+JCGA,0,0,75,50,0.5255373137825703,0.6452670144837881,0.2768108646941967,39,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,45
+JCGA,0,1,0,50,0.4984615284837905,0.6634833487600097,0.19823301279341907,39,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,45
+JCGA,0,2,100,50,0.4846596000512216,0.9272238212895264,0.1449310118720613,39,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,45
+JCGA,0,3,100,50,0.45818913617361284,0.8999651727342828,0.2728599727503848,39,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,45
+ZFG,0,0,25,75,0.5255373137825703,0.6452670144837881,0.2768108646941967,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,0,1,0,25,0.4984615284837905,0.6634833487600097,0.19823301279341907,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,0,2,100,75,0.4846596000512216,0.9272238212895264,0.1449310118720613,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,0,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,1,0,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,1,1,75,75,0.4597135588354613,0.8667269593721654,0.2885390361195653,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,1,2,100,100,0.458904671142526,0.8955263303423449,0.3041781438270339,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,1,3,100,100,0.45818913617361284,0.8999651727342828,0.2728599727503848,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,2,0,100,100,0.464201163042985,0.80842611231755,0.26076577370753146,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,2,1,100,100,0.46413078686196935,0.8438098885412906,0.25955127657791444,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,2,2,100,100,0.45330225848956623,0.7903770919436844,0.31126213496513755,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
+ZFG,2,3,100,100,0.4595593475463711,0.868748699972358,0.2627338334810066,45,Male,Doctorate,Seen both physical and virtual service robots,Never programmed robots,46
