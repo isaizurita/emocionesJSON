@@ -1,0 +1,367 @@
+{
+  "profile": {
+    "initials": "GBS",
+    "age": "49",
+    "gender": "Male",
+    "educationLevel": "Doctorate"
+  },
+  "level": {
+    "knowledgeOfServiceRobots": "No",
+    "reason": "",
+    "familiarityLevel": "Seen physical service robots",
+    "knowledgeLevel": "Never programmed robots"
+  },
+  "permissions": {
+    "publicAnswers": true,
+    "contactedForExperiments": true
+  },
+  "Phases": [
+    "",
+    "Introduction",
+    "Simulated_Experiment_Training",
+    "Simulated_Experiment_Assesment",
+    "Simulated_Experiment_Quiz",
+    "Traditional_Experiment_Training",
+    "Traditional_Experiment_Assessment",
+    "Traditional_Experiment_Quiz",
+    "Comparison_Between_Experiments",
+    "Finish"
+  ],
+  "Phases_completed": [
+    "Introduction",
+    "Simulated_Experiment_Training",
+    "Simulated_Experiment_Assesment",
+    "Simulated_Experiment_Quiz",
+    "Traditional_Experiment_Training",
+    "Traditional_Experiment_Assessment",
+    "Traditional_Experiment_Quiz",
+    "Comparison_Between_Experiments",
+    "Finish"
+  ],
+  "Solution_Experiment_Simulated": {
+    "id_pareto": "optimized-10",
+    "num_ind": 3,
+    "id_pareto_real": "optimized-10",
+    "num_ind_real": 1,
+    "emotion_value": [
+      100.0,
+      75.0
+    ],
+    "object_space": [
+      0.45818913617361284,
+      0.8999651727342828,
+      0.2728599727503848
+    ]
+  },
+  "History_Experiment_Simulated": [
+    [
+      {
+        "id": 0,
+        "time": 0.5255373137825703,
+        "risk": 0.6452670144837881,
+        "arrival": 0.2768108646941967,
+        "sliderDissatisfiedSatisfied": 50,
+        "sliderBoredExcited": "100",
+        "id_pareto": "optimized-10",
+        "num_ind": 0,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 88
+      },
+      {
+        "id": 1,
+        "time": 0.4984615284837905,
+        "risk": 0.6634833487600097,
+        "arrival": 0.19823301279341907,
+        "sliderDissatisfiedSatisfied": "25",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 1,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 69
+      },
+      {
+        "id": 2,
+        "time": 0.4846596000512216,
+        "risk": 0.9272238212895264,
+        "arrival": 0.1449310118720613,
+        "sliderDissatisfiedSatisfied": "25",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 2,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 26
+      },
+      {
+        "id": 3,
+        "time": 0.45818913617361284,
+        "risk": 0.8999651727342828,
+        "arrival": 0.2728599727503848,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 3,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 1
+      }
+    ]
+  ],
+  "Quiz_Experiment_Simulated": {
+    "question1": "Disagree",
+    "question2": "Neutral",
+    "question3": "Disagree",
+    "question4": "Disagree",
+    "question5": "Neutral",
+    "question6": "Agree",
+    "question7": "Disagree",
+    "question8": "Strongly Agree",
+    "question9": "Strongly Agree",
+    "question10": "Disagree"
+  },
+  "History_Experiment_Traditional": [
+    {
+      "bestSolution": {
+        "arrival": 0.1449310118720613,
+        "id": 2,
+        "id_pareto": "optimized-10",
+        "ids_pareto_real": "optimized-10",
+        "num_ind": 2,
+        "nums_ind_real": 26,
+        "risk": 0.9272238212895264,
+        "time": 0.4846596000512216,
+        "arrivalFormat": 0.1449,
+        "riskFormat": 0.9272,
+        "timeFormat": 0.4847,
+        "order": 1
+      },
+      "orderSolutions": [
+        {
+          "arrival": 0.2768108646941967,
+          "id": 0,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 0,
+          "nums_ind_real": 88,
+          "risk": 0.6452670144837881,
+          "time": 0.5255373137825703,
+          "arrivalFormat": 0.2768,
+          "riskFormat": 0.6453,
+          "timeFormat": 0.5255,
+          "order": 3
+        },
+        {
+          "arrival": 0.19823301279341907,
+          "id": 1,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 1,
+          "nums_ind_real": 69,
+          "risk": 0.6634833487600097,
+          "time": 0.4984615284837905,
+          "arrivalFormat": 0.1982,
+          "riskFormat": 0.6635,
+          "timeFormat": 0.4985,
+          "order": 2
+        },
+        {
+          "arrival": 0.1449310118720613,
+          "id": 2,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 2,
+          "nums_ind_real": 26,
+          "risk": 0.9272238212895264,
+          "time": 0.4846596000512216,
+          "arrivalFormat": 0.1449,
+          "riskFormat": 0.9272,
+          "timeFormat": 0.4847,
+          "order": 1
+        },
+        {
+          "arrival": 0.2728599727503848,
+          "id": 3,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 3,
+          "nums_ind_real": 1,
+          "risk": 0.8999651727342828,
+          "time": 0.45818913617361284,
+          "arrivalFormat": 0.2729,
+          "riskFormat": 0.9,
+          "timeFormat": 0.4582,
+          "order": 4
+        }
+      ],
+      "storagePOS": 0
+    },
+    {
+      "bestSolution": {
+        "arrival": 0.1011079520794157,
+        "id": 0,
+        "id_pareto": "optimized-26",
+        "ids_pareto_real": "optimized-26",
+        "num_ind": 4,
+        "nums_ind_real": 4,
+        "risk": 0.8651705018746499,
+        "time": 0.459167682928114,
+        "arrivalFormat": 0.1011,
+        "riskFormat": 0.8652,
+        "timeFormat": 0.4592,
+        "order": 1
+      },
+      "orderSolutions": [
+        {
+          "arrival": 0.1011079520794157,
+          "id": 0,
+          "id_pareto": "optimized-26",
+          "ids_pareto_real": "optimized-26",
+          "num_ind": 4,
+          "nums_ind_real": 4,
+          "risk": 0.8651705018746499,
+          "time": 0.459167682928114,
+          "arrivalFormat": 0.1011,
+          "riskFormat": 0.8652,
+          "timeFormat": 0.4592,
+          "order": 1
+        },
+        {
+          "arrival": 0.27506205796285244,
+          "id": 1,
+          "id_pareto": "optimized-26",
+          "ids_pareto_real": "optimized-26",
+          "num_ind": 16,
+          "nums_ind_real": 16,
+          "risk": 0.9444322826768645,
+          "time": 0.45307523226941504,
+          "arrivalFormat": 0.2751,
+          "riskFormat": 0.9444,
+          "timeFormat": 0.4531,
+          "order": 4
+        },
+        {
+          "arrival": 0.1981399600820706,
+          "id": 2,
+          "id_pareto": "optimized-26",
+          "ids_pareto_real": "optimized-26",
+          "num_ind": 0,
+          "nums_ind_real": 0,
+          "risk": 0.9810597352117704,
+          "time": 0.4399801697010422,
+          "arrivalFormat": 0.1981,
+          "riskFormat": 0.9811,
+          "timeFormat": 0.44,
+          "order": 3
+        },
+        {
+          "arrival": 0.04792883266966079,
+          "id": 3,
+          "id_pareto": "optimized-26",
+          "ids_pareto_real": "optimized-26",
+          "num_ind": 12,
+          "nums_ind_real": 12,
+          "risk": 0.9298478876940789,
+          "time": 0.4548557836209679,
+          "arrivalFormat": 0.0479,
+          "riskFormat": 0.9298,
+          "timeFormat": 0.4549,
+          "order": 2
+        }
+      ],
+      "storagePOS": 0
+    },
+    {
+      "solutions": [
+        {
+          "arrival": 0.2768108646941967,
+          "id": 0,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 0,
+          "nums_ind_real": 88,
+          "risk": 0.6452670144837881,
+          "time": 0.5255373137825703,
+          "arrivalFormat": 0.2768,
+          "riskFormat": 0.6453,
+          "timeFormat": 0.5255,
+          "order": 4
+        },
+        {
+          "arrival": 0.19823301279341907,
+          "id": 1,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 1,
+          "nums_ind_real": 69,
+          "risk": 0.6634833487600097,
+          "time": 0.4984615284837905,
+          "arrivalFormat": 0.1982,
+          "riskFormat": 0.6635,
+          "timeFormat": 0.4985,
+          "order": 2
+        },
+        {
+          "arrival": 0.1449310118720613,
+          "id": 2,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 2,
+          "nums_ind_real": 26,
+          "risk": 0.9272238212895264,
+          "time": 0.4846596000512216,
+          "arrivalFormat": 0.1449,
+          "riskFormat": 0.9272,
+          "timeFormat": 0.4847,
+          "order": 1
+        },
+        {
+          "arrival": 0.2728599727503848,
+          "id": 3,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 3,
+          "nums_ind_real": 1,
+          "risk": 0.8999651727342828,
+          "time": 0.45818913617361284,
+          "arrivalFormat": 0.2729,
+          "riskFormat": 0.9,
+          "timeFormat": 0.4582,
+          "order": 3
+        }
+      ],
+      "storagePOS": 0
+    }
+  ],
+  "Solution_Experiment_Traditional": {
+    "arrival": 0.19823301279341907,
+    "id": 1,
+    "id_pareto": "optimized-10",
+    "ids_pareto_real": "optimized-10",
+    "num_ind": 1,
+    "nums_ind_real": 69,
+    "risk": 0.6634833487600097,
+    "time": 0.4984615284837905,
+    "arrivalFormat": 0.1982,
+    "riskFormat": 0.6635,
+    "timeFormat": 0.4985,
+    "order": 2
+  },
+  "Quiz_Experiment_Traditional": {
+    "question1": "Neutral",
+    "question2": "Neutral",
+    "question3": "Disagree",
+    "question4": "Disagree",
+    "question5": "Disagree",
+    "question6": "Strongly Agree",
+    "question7": "Disagree",
+    "question8": "Agree",
+    "question9": "Strongly Agree",
+    "question10": "Strongly Disagree"
+  },
+  "Quiz_Beetween_Experiments": {
+    "question1": "Strongly Disagree",
+    "question2": "Line Graph Method",
+    "question3": "Line Graph Method",
+    "radio": "1",
+    "question5": "Me result\u00f3 m\u00e1s natural entender los par\u00e1metros para lograr la meta",
+    "methodSelect": "GraphicLines"
+  }
+}

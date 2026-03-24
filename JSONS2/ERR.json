@@ -1,0 +1,49 @@
+{
+    "initials": "ERR",
+  "Solution_Experiment_Simulated": {
+    "emotion_value": [
+      75.0,
+      50.0
+    ],
+    "object_space": [
+      0.45818913617361284,
+      0.8999651727342828,
+      0.2728599727503848
+    ]
+  },
+  "History_Experiment_Simulated": [
+    [
+      {
+        "id": 0,
+        "time": 0.5255373137825703,
+        "risk": 0.6452670144837881,
+        "arrival": 0.2768108646941967,
+        "sliderDissatisfiedSatisfied": "50",
+        "sliderBoredExcited": "25"
+      },
+      {
+        "id": 1,
+        "time": 0.4984615284837905,
+        "risk": 0.6634833487600097,
+        "arrival": 0.19823301279341907,
+        "sliderDissatisfiedSatisfied": 50,
+        "sliderBoredExcited": "25"
+      },
+      {
+        "id": 2,
+        "time": 0.4846596000512216,
+        "risk": 0.9272238212895264,
+        "arrival": 0.1449310118720613,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": "50"
+      },
+      {
+        "id": 3,
+        "time": 0.45818913617361284,
+        "risk": 0.8999651727342828,
+        "arrival": 0.2728599727503848,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": "50"
+      }
+    ]
+  ]}

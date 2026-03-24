@@ -1,0 +1,591 @@
+{
+  "profile": {
+    "initials": "REGC",
+    "age": "27",
+    "gender": "Male",
+    "educationLevel": "Doctorate"
+  },
+  "level": {
+    "knowledgeOfServiceRobots": "Yes",
+    "reason": "He trabajado con el modelo cinem\u00e1tico de un robot de ruedas del tipo diferencial.",
+    "familiarityLevel": "Seen virtual service robots",
+    "knowledgeLevel": "Programmed physical robots"
+  },
+  "permissions": {
+    "publicAnswers": true,
+    "contactedForExperiments": true
+  },
+  "Phases": [
+    "",
+    "Introduction",
+    "Traditional_Experiment_Training",
+    "Traditional_Experiment_Assessment",
+    "Traditional_Experiment_Quiz",
+    "Simulated_Experiment_Training",
+    "Simulated_Experiment_Assesment",
+    "Simulated_Experiment_Quiz",
+    "Comparison_Between_Experiments",
+    "Finish"
+  ],
+  "Phases_completed": [
+    "Introduction",
+    "Traditional_Experiment_Training",
+    "Traditional_Experiment_Assessment",
+    "Traditional_Experiment_Quiz",
+    "Simulated_Experiment_Training",
+    "Simulated_Experiment_Assesment",
+    "Simulated_Experiment_Quiz",
+    "Comparison_Between_Experiments",
+    "Finish"
+  ],
+  "History_Experiment_Traditional": [
+    {
+      "bestSolution": {
+        "arrival": 0.2728599727503848,
+        "id": 3,
+        "id_pareto": "optimized-10",
+        "ids_pareto_real": "optimized-10",
+        "num_ind": 3,
+        "nums_ind_real": 1,
+        "risk": 0.8999651727342828,
+        "time": 0.45818913617361284,
+        "arrivalFormat": 0.2729,
+        "riskFormat": 0.9,
+        "timeFormat": 0.4582,
+        "order": 1
+      },
+      "orderSolutions": [
+        {
+          "arrival": 0.2768108646941967,
+          "id": 0,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 0,
+          "nums_ind_real": 88,
+          "risk": 0.6452670144837881,
+          "time": 0.5255373137825703,
+          "arrivalFormat": 0.2768,
+          "riskFormat": 0.6453,
+          "timeFormat": 0.5255,
+          "order": 4
+        },
+        {
+          "arrival": 0.19823301279341907,
+          "id": 1,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 1,
+          "nums_ind_real": 69,
+          "risk": 0.6634833487600097,
+          "time": 0.4984615284837905,
+          "arrivalFormat": 0.1982,
+          "riskFormat": 0.6635,
+          "timeFormat": 0.4985,
+          "order": 2
+        },
+        {
+          "arrival": 0.1449310118720613,
+          "id": 2,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 2,
+          "nums_ind_real": 26,
+          "risk": 0.9272238212895264,
+          "time": 0.4846596000512216,
+          "arrivalFormat": 0.1449,
+          "riskFormat": 0.9272,
+          "timeFormat": 0.4847,
+          "order": 3
+        },
+        {
+          "arrival": 0.2728599727503848,
+          "id": 3,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 3,
+          "nums_ind_real": 1,
+          "risk": 0.8999651727342828,
+          "time": 0.45818913617361284,
+          "arrivalFormat": 0.2729,
+          "riskFormat": 0.9,
+          "timeFormat": 0.4582,
+          "order": 1
+        }
+      ],
+      "storagePOS": 0
+    },
+    {
+      "bestSolution": {
+        "arrival": 0.2728599727503848,
+        "id": 3,
+        "id_pareto": "optimized-10",
+        "ids_pareto_real": "optimized-10",
+        "num_ind": 3,
+        "nums_ind_real": 1,
+        "risk": 0.8999651727342828,
+        "time": 0.45818913617361284,
+        "arrivalFormat": 0.2729,
+        "riskFormat": 0.9,
+        "timeFormat": 0.4582,
+        "order": 1
+      },
+      "orderSolutions": [
+        {
+          "arrival": 0.2768108646941967,
+          "id": 0,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 0,
+          "nums_ind_real": 88,
+          "risk": 0.6452670144837881,
+          "time": 0.5255373137825703,
+          "arrivalFormat": 0.2768,
+          "riskFormat": 0.6453,
+          "timeFormat": 0.5255,
+          "order": 4
+        },
+        {
+          "arrival": 0.19823301279341907,
+          "id": 1,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 1,
+          "nums_ind_real": 69,
+          "risk": 0.6634833487600097,
+          "time": 0.4984615284837905,
+          "arrivalFormat": 0.1982,
+          "riskFormat": 0.6635,
+          "timeFormat": 0.4985,
+          "order": 2
+        },
+        {
+          "arrival": 0.1449310118720613,
+          "id": 2,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 2,
+          "nums_ind_real": 26,
+          "risk": 0.9272238212895264,
+          "time": 0.4846596000512216,
+          "arrivalFormat": 0.1449,
+          "riskFormat": 0.9272,
+          "timeFormat": 0.4847,
+          "order": 3
+        },
+        {
+          "arrival": 0.2728599727503848,
+          "id": 3,
+          "id_pareto": "optimized-10",
+          "ids_pareto_real": "optimized-10",
+          "num_ind": 3,
+          "nums_ind_real": 1,
+          "risk": 0.8999651727342828,
+          "time": 0.45818913617361284,
+          "arrivalFormat": 0.2729,
+          "riskFormat": 0.9,
+          "timeFormat": 0.4582,
+          "order": 1
+        }
+      ],
+      "storagePOS": 0
+    },
+    {
+      "bestSolution": {
+        "arrival": 0.3041781438270339,
+        "id": 2,
+        "id_pareto": "optimized-19",
+        "ids_pareto_real": "optimized-19",
+        "num_ind": 13,
+        "nums_ind_real": 13,
+        "risk": 0.8955263303423449,
+        "time": 0.458904671142526,
+        "arrivalFormat": 0.3042,
+        "riskFormat": 0.8955,
+        "timeFormat": 0.4589,
+        "order": 1
+      },
+      "orderSolutions": [
+        {
+          "arrival": 0.2627338334810066,
+          "id": 0,
+          "id_pareto": "optimized-19",
+          "ids_pareto_real": "optimized-19",
+          "num_ind": 4,
+          "nums_ind_real": 4,
+          "risk": 0.868748699972358,
+          "time": 0.4595593475463711,
+          "arrivalFormat": 0.2627,
+          "riskFormat": 0.8687,
+          "timeFormat": 0.4596,
+          "order": 3
+        },
+        {
+          "arrival": 0.2885390361195653,
+          "id": 1,
+          "id_pareto": "optimized-19",
+          "ids_pareto_real": "optimized-19",
+          "num_ind": 6,
+          "nums_ind_real": 6,
+          "risk": 0.8667269593721654,
+          "time": 0.4597135588354613,
+          "arrivalFormat": 0.2885,
+          "riskFormat": 0.8667,
+          "timeFormat": 0.4597,
+          "order": 2
+        },
+        {
+          "arrival": 0.3041781438270339,
+          "id": 2,
+          "id_pareto": "optimized-19",
+          "ids_pareto_real": "optimized-19",
+          "num_ind": 13,
+          "nums_ind_real": 13,
+          "risk": 0.8955263303423449,
+          "time": 0.458904671142526,
+          "arrivalFormat": 0.3042,
+          "riskFormat": 0.8955,
+          "timeFormat": 0.4589,
+          "order": 1
+        },
+        {
+          "arrival": 0.2728599727503848,
+          "id": 3,
+          "id_pareto": "optimized-19",
+          "ids_pareto_real": "optimized-19",
+          "num_ind": 10,
+          "nums_ind_real": 10,
+          "risk": 0.8999651727342828,
+          "time": 0.45818913617361284,
+          "arrivalFormat": 0.2729,
+          "riskFormat": 0.9,
+          "timeFormat": 0.4582,
+          "order": 4
+        }
+      ],
+      "storagePOS": 0
+    },
+    {
+      "solutions": [
+        {
+          "arrival": 0.27506205796285244,
+          "id": 0,
+          "id_pareto": "optimized-24",
+          "ids_pareto_real": "optimized-24",
+          "num_ind": 15,
+          "nums_ind_real": 15,
+          "risk": 0.9444322826768645,
+          "time": 0.45307523226941504,
+          "arrivalFormat": 0.2751,
+          "riskFormat": 0.9444,
+          "timeFormat": 0.4531,
+          "order": 4
+        },
+        {
+          "arrival": 0.27630202236385093,
+          "id": 1,
+          "id_pareto": "optimized-24",
+          "ids_pareto_real": "optimized-24",
+          "num_ind": 1,
+          "nums_ind_real": 1,
+          "risk": 0.8019484785649978,
+          "time": 0.45099730599778076,
+          "arrivalFormat": 0.2763,
+          "riskFormat": 0.8019,
+          "timeFormat": 0.451,
+          "order": 2
+        },
+        {
+          "arrival": 0.31126213496513755,
+          "id": 2,
+          "id_pareto": "optimized-24",
+          "ids_pareto_real": "optimized-24",
+          "num_ind": 13,
+          "nums_ind_real": 13,
+          "risk": 0.7903770919436844,
+          "time": 0.45330225848956623,
+          "arrivalFormat": 0.3113,
+          "riskFormat": 0.7904,
+          "timeFormat": 0.4533,
+          "order": 1
+        },
+        {
+          "arrival": 0.244211073572886,
+          "id": 3,
+          "id_pareto": "optimized-24",
+          "ids_pareto_real": "optimized-24",
+          "num_ind": 14,
+          "nums_ind_real": 14,
+          "risk": 0.7629951092010486,
+          "time": 0.4554251600440186,
+          "arrivalFormat": 0.2442,
+          "riskFormat": 0.763,
+          "timeFormat": 0.4554,
+          "order": 3
+        }
+      ],
+      "storagePOS": 0
+    }
+  ],
+  "Solution_Experiment_Traditional": {
+    "arrival": 0.31126213496513755,
+    "id": 2,
+    "id_pareto": "optimized-24",
+    "ids_pareto_real": "optimized-24",
+    "num_ind": 13,
+    "nums_ind_real": 13,
+    "risk": 0.7903770919436844,
+    "time": 0.45330225848956623,
+    "arrivalFormat": 0.3113,
+    "riskFormat": 0.7904,
+    "timeFormat": 0.4533,
+    "order": 1
+  },
+  "Quiz_Experiment_Traditional": {
+    "question1": "Agree",
+    "question2": "Agree",
+    "question3": "Disagree",
+    "question4": "Disagree",
+    "question5": "Disagree",
+    "question6": "Strongly Agree",
+    "question7": "Agree",
+    "question8": "Agree",
+    "question9": "Agree",
+    "question10": "Disagree"
+  },
+  "Solution_Experiment_Simulated": {
+    "id_pareto": "optimized-10",
+    "num_ind": 0,
+    "id_pareto_real": "optimized-26",
+    "num_ind_real": 0,
+    "emotion_value": [
+      100.0,
+      100.0
+    ],
+    "object_space": [
+      0.5255373137825703,
+      0.6452670144837881,
+      0.2768108646941967
+    ]
+  },
+  "History_Experiment_Simulated": [
+    [
+      {
+        "id": 0,
+        "time": 0.5255373137825703,
+        "risk": 0.6452670144837881,
+        "arrival": 0.2768108646941967,
+        "sliderDissatisfiedSatisfied": "0",
+        "sliderBoredExcited": 50,
+        "id_pareto": "optimized-10",
+        "num_ind": 0,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 88
+      },
+      {
+        "id": 1,
+        "time": 0.4984615284837905,
+        "risk": 0.6634833487600097,
+        "arrival": 0.19823301279341907,
+        "sliderDissatisfiedSatisfied": "0",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 1,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 69
+      },
+      {
+        "id": 2,
+        "time": 0.4846596000512216,
+        "risk": 0.9272238212895264,
+        "arrival": 0.1449310118720613,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "100",
+        "id_pareto": "optimized-10",
+        "num_ind": 2,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 26
+      },
+      {
+        "id": 3,
+        "time": 0.45818913617361284,
+        "risk": 0.8999651727342828,
+        "arrival": 0.2728599727503848,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 3,
+        "id_pareto_real": "optimized-10",
+        "num_ind_real": 1
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "time": 0.459167682928114,
+        "risk": 0.8651705018746499,
+        "arrival": 0.1011079520794157,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": 50,
+        "id_pareto": "optimized-10",
+        "num_ind": 4,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 4
+      },
+      {
+        "id": 1,
+        "time": 0.45307523226941504,
+        "risk": 0.9444322826768645,
+        "arrival": 0.27506205796285244,
+        "sliderDissatisfiedSatisfied": "0",
+        "sliderBoredExcited": 50,
+        "id_pareto": "optimized-10",
+        "num_ind": 16,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 16
+      },
+      {
+        "id": 2,
+        "time": 0.4399801697010422,
+        "risk": 0.9810597352117704,
+        "arrival": 0.1981399600820706,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": 50,
+        "id_pareto": "optimized-10",
+        "num_ind": 0,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 0
+      },
+      {
+        "id": 3,
+        "time": 0.4548557836209679,
+        "risk": 0.9298478876940789,
+        "arrival": 0.04792883266966079,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 12,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 12
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "time": 0.43489629163087073,
+        "risk": 0.8175859038955056,
+        "arrival": 0.0975142348637857,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": 50,
+        "id_pareto": "optimized-10",
+        "num_ind": 5,
+        "id_pareto_real": "optimized-16",
+        "num_ind_real": 67
+      },
+      {
+        "id": 1,
+        "time": 0.45749702791405916,
+        "risk": 0.7946569601331365,
+        "arrival": 0.08534473351778746,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 2,
+        "id_pareto_real": "optimized-16",
+        "num_ind_real": 47
+      },
+      {
+        "id": 2,
+        "time": 0.43709547413557837,
+        "risk": 0.7996789342873667,
+        "arrival": 0.029095970087296107,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": 50,
+        "id_pareto": "optimized-10",
+        "num_ind": 8,
+        "id_pareto_real": "optimized-16",
+        "num_ind_real": 83
+      },
+      {
+        "id": 3,
+        "time": 0.4483187358474537,
+        "risk": 0.8566280602931865,
+        "arrival": 0.01865252249225225,
+        "sliderDissatisfiedSatisfied": "0",
+        "sliderBoredExcited": "100",
+        "id_pareto": "optimized-10",
+        "num_ind": 9,
+        "id_pareto_real": "optimized-16",
+        "num_ind_real": 86
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "time": 0.459167682928114,
+        "risk": 0.8651705018746499,
+        "arrival": 0.1011079520794157,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 4,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 4
+      },
+      {
+        "id": 1,
+        "time": 0.45307523226941504,
+        "risk": 0.9444322826768645,
+        "arrival": 0.27506205796285244,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "100",
+        "id_pareto": "optimized-10",
+        "num_ind": 16,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 16
+      },
+      {
+        "id": 2,
+        "time": 0.4399801697010422,
+        "risk": 0.9810597352117704,
+        "arrival": 0.1981399600820706,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "100",
+        "id_pareto": "optimized-10",
+        "num_ind": 0,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 0
+      },
+      {
+        "id": 3,
+        "time": 0.4548557836209679,
+        "risk": 0.9298478876940789,
+        "arrival": 0.04792883266966079,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "75",
+        "id_pareto": "optimized-10",
+        "num_ind": 12,
+        "id_pareto_real": "optimized-26",
+        "num_ind_real": 12
+      }
+    ]
+  ],
+  "Quiz_Experiment_Simulated": {
+    "question1": "Agree",
+    "question2": "Disagree",
+    "question3": "Agree",
+    "question4": "Agree",
+    "question5": "Disagree",
+    "question6": "Agree",
+    "question7": "Agree",
+    "question8": "Strongly Agree",
+    "question9": "Strongly Agree",
+    "question10": "Disagree"
+  },
+  "Quiz_Beetween_Experiments": {
+    "question1": "Strongly Agree",
+    "question2": "Simulation Method",
+    "question3": "Simulation Method",
+    "question5": "El m\u00e9todo de gr\u00e1ficas es bastante visual y quita de cierta manera la ambiguedad en la toma de decisiones al presentar valores num\u00e9ricos para cada una de las propuestas de \"movimiento\". No obstante, al no conocer las unidades de cada uno de los par\u00e1metros, es muy dif\u00edcil saber como se ven estos en la pr\u00e1ctica. Dicho esto, es mucho m\u00e1s ilustrativo el m\u00e9todo de simulaci\u00f3n, toda vez que nos permite entender o traducir los valores num\u00e9ricos mostrados en la tabla y por ende las gr\u00e1ficas.",
+    "methodSelect": "Simulation"
+  }
+}

@@ -82,7 +82,7 @@ for user in usuarios:
                  label=f'R{ronda} - Arousal', color=color, marker=marker, linestyle='dashed')
 
     plt.title(f'Evolución emocional - Usuario {user}')
-    plt.xlabel("Iteración")
+    plt.xlabel("Solución")
     plt.ylabel("Valor del Slider")
     plt.legend()
     plt.grid(True)

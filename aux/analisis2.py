@@ -15,7 +15,7 @@ print(f"\nSe encontraron {len(archivos_json)} archivos JSON.")
 df_general = pd.DataFrame()
 
 # Carpeta de gráficos
-output_folder = os.path.join(carpeta_json, "graficas")
+output_folder = os.path.join(carpeta_json, "graficas2.1")
 os.makedirs(output_folder, exist_ok=True)
 
 # Contador global para IDs

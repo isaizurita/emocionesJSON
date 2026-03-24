@@ -1,0 +1,84 @@
+{
+    "initials": "JCT",
+  "Solution_Experiment_Simulated": {
+    "emotion_value": [
+      100.0,
+      100.0
+    ],
+    "object_space": [
+      0.5439060403679821,
+      0.8239807878779725,
+      0.4299148542333435
+    ]
+  },
+  "History_Experiment_Simulated": [
+    [
+      {
+        "id": 0,
+        "time": 0.5255373137825703,
+        "risk": 0.6452670144837881,
+        "arrival": 0.2768108646941967,
+        "sliderDissatisfiedSatisfied": 50,
+        "sliderBoredExcited": "75"
+      },
+      {
+        "id": 1,
+        "time": 0.4984615284837905,
+        "risk": 0.6634833487600097,
+        "arrival": 0.19823301279341907,
+        "sliderDissatisfiedSatisfied": "0",
+        "sliderBoredExcited": "25"
+      },
+      {
+        "id": 2,
+        "time": 0.4846596000512216,
+        "risk": 0.9272238212895264,
+        "arrival": 0.1449310118720613,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": "75"
+      },
+      {
+        "id": 3,
+        "time": 0.45818913617361284,
+        "risk": 0.8999651727342828,
+        "arrival": 0.2728599727503848,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "100"
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "time": 0.4595593475463711,
+        "risk": 0.868748699972358,
+        "arrival": 0.2627338334810066,
+        "sliderDissatisfiedSatisfied": "75",
+        "sliderBoredExcited": "75"
+      },
+      {
+        "id": 1,
+        "time": 0.4597135588354613,
+        "risk": 0.8667269593721654,
+        "arrival": 0.2885390361195653,
+        "sliderDissatisfiedSatisfied": 50,
+        "sliderBoredExcited": "75"
+      },
+      {
+        "id": 2,
+        "time": 0.458904671142526,
+        "risk": 0.8955263303423449,
+        "arrival": 0.3041781438270339,
+        "sliderDissatisfiedSatisfied": "100",
+        "sliderBoredExcited": "100"
+      },
+      {
+        "id": 3,
+        "time": 0.45818913617361284,
+        "risk": 0.8999651727342828,
+        "arrival": 0.2728599727503848,
+        "sliderDissatisfiedSatisfied": "0",
+        "sliderBoredExcited": "25"
+      }
+    ]
+  ]
+}
