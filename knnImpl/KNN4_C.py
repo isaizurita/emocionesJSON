@@ -67,6 +67,9 @@ for archivo in archivosJson:
         try:
             jsonData = json.load(f) # Convertimos el JSON a diccionario
 
+            if not isinstance(jsonData, dict) or "profile" not in jsonData:
+                continue # Archivos auxiliares (p. ej. rondas_usuarios.json) sin estructura de participante
+
             profile = jsonData.get("profile", {}) #Extraemos las cabeceras de las nuevas variables
             level = jsonData.get("level", {})
 
