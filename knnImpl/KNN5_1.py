@@ -30,14 +30,16 @@ def codificarConocimiento(texto):
     }
     return mapa.get(texto, 0)
 
-# Codificamos género en valor numérico
-def codificarGenero(texto):
-    mapa = {
-        "Male": 0,
-        "Female": 1,
-        "Other": 2
-    }
-    return mapa.get(texto, 2)
+# Género no tiene un orden real entre sus categorías (no es como
+# educación, donde Degree < Master < Doctorate), así que en vez de
+# darle un número ordinal arbitrario lo codificamos con one-hot:
+# una columna binaria por categoría.
+GENERO_CATEGORIAS = ["Male", "Female", "Other"]
+
+def codificarGeneroOneHot(texto):
+    if texto not in GENERO_CATEGORIAS:
+        texto = "Other"
+    return {f"genero_{cat}": 1.0 if texto == cat else 0.0 for cat in GENERO_CATEGORIAS}
 
 # Codificamos nivel educativo en valor numérico
 def codificarEducacion(texto):
@@ -190,7 +192,7 @@ for archivo, jsonData in jsonCargados.items():
 
     # Extraemos tal cual las nuevas variables
     edad = int(profile.get("age", 0))
-    genero = codificarGenero(profile.get("gender", "Other"))
+    generoOneHot = codificarGeneroOneHot(profile.get("gender", "Other"))
     educacion = codificarEducacion(profile.get("educationLevel", "Degree"))
 
     # Mandamos a llamar a las funciones para estandarizar la familiaridad y el nivel de conocimiento
@@ -212,13 +214,13 @@ for archivo, jsonData in jsonCargados.items():
                     "risk": float(paso["risk"]),
                     "arrival": float(paso["arrival"]),
                     "age": edad, # Valores fijos para todos los pasos de esta persona
-                    "gender": genero,
                     "education": educacion,
                     "nivelFamiliaridad": familiaridad,
                     "nivelConocimiento": conocimiento,
                     "valence": float(paso["sliderDissatisfiedSatisfied"]),
                     "arousal": float(paso["sliderBoredExcited"])
                 }
+                fila.update(generoOneHot) # Columnas binarias genero_Male / genero_Female / genero_Other
                 fila.update(dict(zip(COLUMNAS_PERSONALIDAD, personalidad))) # Valores fijos de personalidad
                 datos.append(fila)
             except Exception as e:
@@ -238,7 +240,7 @@ df = df.drop_duplicates()
 # Variables de entrada: las técnicas + demográficas de siempre, más los 8 valores de personalidad seleccionados
 X = df[[
     "time", "risk", "arrival",
-    "age", "gender", "education",
+    "age", "genero_Male", "genero_Female", "genero_Other", "education",
     "nivelFamiliaridad", "nivelConocimiento"
 ] + COLUMNAS_PERSONALIDAD]
 
@@ -264,11 +266,11 @@ knnRegressor.fit(Xtrain, yTrain)
 
 #Accuracy
 #===================================
-print("\nAccuracy of K-NN classifier on training set: {:.2f}"
-      .format(knnRegressor.score(Xtrain, yTrain)))
+#print("\nAccuracy of K-NN classifier on training set: {:.2f}"
+      #.format(knnRegressor.score(Xtrain, yTrain)))
 
-print("Accuracy of K-NN classifier on test set: {:.2f}"
-      .format(knnRegressor.score(Xtest, yTest)))
+#print("Accuracy of K-NN classifier on test set: {:.2f}"
+      #.format(knnRegressor.score(Xtest, yTest)))
 #===================================
 
 # Predicción sobre el conjunto de prueba, para cada punto de prueba, busca los k=5 vecinos más cercanos
@@ -300,7 +302,7 @@ nuevaInstancia = pd.DataFrame([{
     "risk": float(pasoEjemplo["risk"]),
     "arrival": float(pasoEjemplo["arrival"]),
     "age": int(profileEjemplo.get("age", 0)),
-    "gender": codificarGenero(profileEjemplo.get("gender", "Other")),
+    **codificarGeneroOneHot(profileEjemplo.get("gender", "Other")),
     "education": codificarEducacion(profileEjemplo.get("educationLevel", "Degree")),
     "nivelFamiliaridad": codificarFamiliaridad(
         levelEjemplo.get("familiarityLevel", "")
